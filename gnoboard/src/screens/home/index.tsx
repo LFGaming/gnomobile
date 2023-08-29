@@ -10,6 +10,7 @@ function HomeScreen() {
   const [postContent, setPostContent] = useState("");
   const [appConsole, setAppConsole] = useState<string>("");
   const [loading, setLoading] = useState<string | undefined>(undefined);
+  // const [isButtonPressed, setIsButtonPressed] = useState(false);
 
   const onPostPress = async () => {
     setLoading("Replying to a post...");
