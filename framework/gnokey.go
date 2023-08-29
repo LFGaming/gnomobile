@@ -62,7 +62,7 @@ func CreateDefaulAccount(rootDir string) error {
 
 func getAccountAndTxCfg(rootDir string) *accountAndTxCfg {
 	dataDir := rootDir + "/data"
-	remote := "192.168.0.110:8888"
+	remote := "192.168.0.110:26657"
 	chainID := "dev"
 	keyName := "jefft0"
 	password := "password"
